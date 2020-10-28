@@ -1,0 +1,17 @@
+.btn-purple {
+	background-color: #ccbcbc;
+	color: white;
+	padding: 15px 20px;
+	border-radius: 4px;
+	font-weight: bold;
+	font-family: 'Roboto', sans-serif;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:hover {
+	background-color: black;
+	color: white;
+}
