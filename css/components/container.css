@@ -27,9 +27,7 @@ div {
     margin: 10px auto;
 }
 
-.list-left {
-	text-align: left;
-}
+/* Responsive design */
 
 @media (max-width: 960px) {
   .container {
