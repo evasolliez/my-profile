@@ -10,7 +10,6 @@
 
 .list-inline i {
 	font-size: 50px;
-	color: #ccbcbc;
 }
 
 .list-inline i:hover {
@@ -21,3 +20,10 @@
 	text-align: left;
 }
 
+.icon-purple i {
+	color: #ccbcbc;
+}
+
+.icon-blue i {
+	color: #0353a4;
+}
