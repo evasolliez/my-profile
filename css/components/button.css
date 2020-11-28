@@ -22,28 +22,28 @@
  }
 
  .btn-hover span {
-  cursor: pointer;
-  display: inline-block;
-  position: relative;
-  transition: 0.5s;
+ 	cursor: pointer;
+  	display: inline-block;
+  	position: relative;
+  	transition: 0.5s;
 }
 
 .btn-hover span:after {
-  content: '\00bb';
-  position: absolute;
-  opacity: 0;
-  top: 0;
-  right: -20px;
-  transition: 0.5s;
+  	content: '\00bb';
+  	position: absolute;
+  	opacity: 0;
+  	top: 0;
+  	right: -20px;
+  	transition: 0.5s;
 }
 
 .btn-hover:hover span {
-  padding-right: 25px;
+  	padding-right: 25px;
 }
 
 .btn-hover:hover span:after {
-  opacity: 1;
-  right: 0;
+  	opacity: 1;
+  	right: 0;
 }
 
 a {
@@ -54,3 +54,24 @@ a:hover {
 	background-color: black;
 	color: white;
 }
+
+/* Buttons for pagination (changing pages) */
+
+.pagination a {
+  	color: black;
+  	float: left;
+  	padding: 8px 16px;
+  	text-decoration: none;
+  	transition: background-color .3s;
+}
+
+.pagination a.active {
+  	background-color: dodgerblue;
+  	color: white;
+}
+
+.pagination a:hover:not(.active) {background-color: #ddd;}
+
+
+
+
