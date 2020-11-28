@@ -16,6 +16,36 @@
 	font-family: 'Roboto', sans-serif;
 }
 
+.btn-hover {
+	transition: all 0.5s;
+	cursor: pointer;
+ }
+
+ .btn-hover span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.btn-hover span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.btn-hover:hover span {
+  padding-right: 25px;
+}
+
+.btn-hover:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
 a {
 	text-decoration: none;
 }
